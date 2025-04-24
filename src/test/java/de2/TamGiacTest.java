@@ -1,10 +1,10 @@
-package bv_asm;
+package de2;
 
 import com.course.Tamgiac;
 import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
-public class TamgiacTest {
+public class TamGiacTest {
 
     @Test
     public void testTamGiacVuong() {
