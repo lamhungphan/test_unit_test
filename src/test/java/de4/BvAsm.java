@@ -76,7 +76,6 @@ public class BvAsm {
         // Nhấn nút Log in
         WebElement loginButton = driver.findElement(LOGIN_BUTTON);
         loginButton.click();
-
     }
 
     @Test(dataProvider = "DataEdge", description = "Tìm kiếm")
@@ -96,11 +95,7 @@ public class BvAsm {
         // Click nút tìm kiếm
         WebElement searchButton = driver2.findElement(SEARCH_BUTTON_AT);
         searchButton.click();
-
-        // Optional: Kiểm tra kết quả hiển thị (nếu muốn)
-        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("selector_ket_qua")));
     }
-
 
     @AfterClass
     public void tearDown() {
